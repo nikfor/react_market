@@ -1,22 +1,16 @@
 {
-  "name": "react_market",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "lodash": "^4.17.11",
-    "react": "^16.6.1",
-    "react-dom": "^16.6.1"
+    "babel-core": "7.0.0-bridge.0",
+    "babel-upgrade": "^0.0.24",
+    "parcel-bundler": "^1.10.3",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3"
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "regenerator-runtime": "^0.13.1"
   }
 }
